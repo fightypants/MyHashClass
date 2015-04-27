@@ -18,5 +18,6 @@ class MyHash
   end
     define_method(:has_key?) do |key|
       @key_array.include?(key)
-      end
-    end
+  end
+  end
+end
